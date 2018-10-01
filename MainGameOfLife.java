@@ -14,8 +14,8 @@ public class MainGameOfLife
 		window.setVisible(true);
 		
 		String str=JOptionPane.showInputDialog("If you want to move for the next generation please type 'YES', else type 'NO'\n"); 
-		
-		while(str.equals("YES"))
+		String nextGen = str.toLowerCase();
+		while(nextGen.equals("yes"))
 		{
 			m.nextGen();
 			window.add(m);
@@ -24,6 +24,7 @@ public class MainGameOfLife
 			window.setVisible(true);
 			m.repaint();
 			str=JOptionPane.showInputDialog("If you want to move for the next generation please type 'YES', else type 'NO'\n"); 
+			nextGen = str.toLowerCase();
 		}
 		
 		
