@@ -3,6 +3,7 @@ The game of life is a simulation game developed by mathematician "John Conway" a
 The game is played on a vast matrix whose limbs are possible sites of existence. Each site can be one of the following two situations:
 1. There is life, a complete living site, marked as a full square.
 2. There is no life, an empty living site. We will mark it as an empty square.
+
 Here are the fundamental laws of the genetics of CONWAY:
 Birth - in any site where there is no life of precisely three living neighbors, there will be birth in the next generation. Otherwise, the site remains lifeless, empty.
 Death - in every site where there is life, with 0 or 1 living neighbors, death will occur in the next generation as a result of loneliness. In every site where there is a life of 4 or more living neighbors, there will be death in the next generation as a result of mass deportations.
